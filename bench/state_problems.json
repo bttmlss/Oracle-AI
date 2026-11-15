@@ -1,0 +1,1762 @@
+[
+ {
+  "id": "S01",
+  "text": "A warehouse register tracks three bins: A, B, and C. Initially A=299, B=217, C=317 (units). Apply these operations in order:\n1. Subtract 212 from A.\n2. Double B.\n3. Add 66 to C.\n4. Halve B.\n5. Add 7 to A.\n6. Add 20 to A.\n7. Subtract 28 from B.",
+  "initial": {
+   "A": 299,
+   "B": 217,
+   "C": 317
+  },
+  "ops": [
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 212
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 66
+   },
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 7
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 20
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 28
+   }
+  ],
+  "states": [
+   {
+    "A": 87,
+    "B": 217,
+    "C": 317
+   },
+   {
+    "A": 87,
+    "B": 434,
+    "C": 317
+   },
+   {
+    "A": 87,
+    "B": 434,
+    "C": 383
+   },
+   {
+    "A": 87,
+    "B": 217,
+    "C": 383
+   },
+   {
+    "A": 94,
+    "B": 217,
+    "C": 383
+   },
+   {
+    "A": 114,
+    "B": 217,
+    "C": 383
+   },
+   {
+    "A": 114,
+    "B": 189,
+    "C": 383
+   }
+  ],
+  "final": {
+   "A": 114,
+   "B": 189,
+   "C": 383
+  }
+ },
+ {
+  "id": "S02",
+  "text": "A vault ledger tracks three accounts: A, B, and C. Initially A=75, B=177, C=364 (credits). Apply these operations in order:\n1. Add 23 to B.\n2. Add 88 to A.\n3. Add 95 to A.\n4. Double A.\n5. Subtract 18 from A.\n6. Double C.\n7. Add 24 to B.",
+  "initial": {
+   "A": 75,
+   "B": 177,
+   "C": 364
+  },
+  "ops": [
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 23
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 88
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 95
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 18
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 24
+   }
+  ],
+  "states": [
+   {
+    "A": 75,
+    "B": 200,
+    "C": 364
+   },
+   {
+    "A": 163,
+    "B": 200,
+    "C": 364
+   },
+   {
+    "A": 258,
+    "B": 200,
+    "C": 364
+   },
+   {
+    "A": 516,
+    "B": 200,
+    "C": 364
+   },
+   {
+    "A": 498,
+    "B": 200,
+    "C": 364
+   },
+   {
+    "A": 498,
+    "B": 200,
+    "C": 728
+   },
+   {
+    "A": 498,
+    "B": 224,
+    "C": 728
+   }
+  ],
+  "final": {
+   "A": 498,
+   "B": 224,
+   "C": 728
+  }
+ },
+ {
+  "id": "S03",
+  "text": "A greenhouse log tracks three water tanks: A, B, and C. Initially A=72, B=175, C=256 (liters). Apply these operations in order:\n1. Add 77 to A.\n2. Double A.\n3. Double B.\n4. Halve A.\n5. Subtract 339 from B.\n6. Add 47 to A.\n7. Double C.",
+  "initial": {
+   "A": 72,
+   "B": 175,
+   "C": 256
+  },
+  "ops": [
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 77
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 339
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 47
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 149,
+    "B": 175,
+    "C": 256
+   },
+   {
+    "A": 298,
+    "B": 175,
+    "C": 256
+   },
+   {
+    "A": 298,
+    "B": 350,
+    "C": 256
+   },
+   {
+    "A": 149,
+    "B": 350,
+    "C": 256
+   },
+   {
+    "A": 149,
+    "B": 11,
+    "C": 256
+   },
+   {
+    "A": 196,
+    "B": 11,
+    "C": 256
+   },
+   {
+    "A": 196,
+    "B": 11,
+    "C": 512
+   }
+  ],
+  "final": {
+   "A": 196,
+   "B": 11,
+   "C": 512
+  }
+ },
+ {
+  "id": "S04",
+  "text": "A workshop board tracks three parts bins: A, B, and C. Initially A=349, B=393, C=334 (parts). Apply these operations in order:\n1. Add 107 to C.\n2. Double A.\n3. Double B.\n4. Halve A.\n5. Subtract 135 from C.\n6. Halve B.\n7. Add 72 to A.",
+  "initial": {
+   "A": 349,
+   "B": 393,
+   "C": 334
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 107
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 135
+   },
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 72
+   }
+  ],
+  "states": [
+   {
+    "A": 349,
+    "B": 393,
+    "C": 441
+   },
+   {
+    "A": 698,
+    "B": 393,
+    "C": 441
+   },
+   {
+    "A": 698,
+    "B": 786,
+    "C": 441
+   },
+   {
+    "A": 349,
+    "B": 786,
+    "C": 441
+   },
+   {
+    "A": 349,
+    "B": 786,
+    "C": 306
+   },
+   {
+    "A": 349,
+    "B": 393,
+    "C": 306
+   },
+   {
+    "A": 421,
+    "B": 393,
+    "C": 306
+   }
+  ],
+  "final": {
+   "A": 421,
+   "B": 393,
+   "C": 306
+  }
+ },
+ {
+  "id": "S05",
+  "text": "A harbor office tracks three fuel depots: A, B, and C. Initially A=158, B=148, C=63 (barrels). Apply these operations in order:\n1. Subtract 51 from C.\n2. Subtract 77 from A.\n3. Subtract 8 from C.\n4. Add 75 to A.\n5. Subtract 51 from B.\n6. Subtract 136 from A.\n7. Double B.",
+  "initial": {
+   "A": 158,
+   "B": 148,
+   "C": 63
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 51
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 77
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 8
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 75
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 51
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 136
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 158,
+    "B": 148,
+    "C": 12
+   },
+   {
+    "A": 81,
+    "B": 148,
+    "C": 12
+   },
+   {
+    "A": 81,
+    "B": 148,
+    "C": 4
+   },
+   {
+    "A": 156,
+    "B": 148,
+    "C": 4
+   },
+   {
+    "A": 156,
+    "B": 97,
+    "C": 4
+   },
+   {
+    "A": 20,
+    "B": 97,
+    "C": 4
+   },
+   {
+    "A": 20,
+    "B": 194,
+    "C": 4
+   }
+  ],
+  "final": {
+   "A": 20,
+   "B": 194,
+   "C": 4
+  }
+ },
+ {
+  "id": "S06",
+  "text": "A warehouse register tracks three bins: A, B, and C. Initially A=197, B=108, C=306 (units). Apply these operations in order:\n1. Halve B.\n2. Subtract 157 from A.\n3. Double C.\n4. Subtract 63 from C.\n5. Halve A.\n6. Double A.\n7. Subtract 28 from B.",
+  "initial": {
+   "A": 197,
+   "B": 108,
+   "C": 306
+  },
+  "ops": [
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 157
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 63
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 28
+   }
+  ],
+  "states": [
+   {
+    "A": 197,
+    "B": 54,
+    "C": 306
+   },
+   {
+    "A": 40,
+    "B": 54,
+    "C": 306
+   },
+   {
+    "A": 40,
+    "B": 54,
+    "C": 612
+   },
+   {
+    "A": 40,
+    "B": 54,
+    "C": 549
+   },
+   {
+    "A": 20,
+    "B": 54,
+    "C": 549
+   },
+   {
+    "A": 40,
+    "B": 54,
+    "C": 549
+   },
+   {
+    "A": 40,
+    "B": 26,
+    "C": 549
+   }
+  ],
+  "final": {
+   "A": 40,
+   "B": 26,
+   "C": 549
+  }
+ },
+ {
+  "id": "S07",
+  "text": "A vault ledger tracks three accounts: A, B, and C. Initially A=249, B=345, C=382 (credits). Apply these operations in order:\n1. Subtract 122 from A.\n2. Double C.\n3. Double A.\n4. Double A.\n5. Add 52 to A.\n6. Halve C.\n7. Double C.",
+  "initial": {
+   "A": 249,
+   "B": 345,
+   "C": 382
+  },
+  "ops": [
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 122
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 52
+   },
+   {
+    "var": "C",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 127,
+    "B": 345,
+    "C": 382
+   },
+   {
+    "A": 127,
+    "B": 345,
+    "C": 764
+   },
+   {
+    "A": 254,
+    "B": 345,
+    "C": 764
+   },
+   {
+    "A": 508,
+    "B": 345,
+    "C": 764
+   },
+   {
+    "A": 560,
+    "B": 345,
+    "C": 764
+   },
+   {
+    "A": 560,
+    "B": 345,
+    "C": 382
+   },
+   {
+    "A": 560,
+    "B": 345,
+    "C": 764
+   }
+  ],
+  "final": {
+   "A": 560,
+   "B": 345,
+   "C": 764
+  }
+ },
+ {
+  "id": "S08",
+  "text": "A greenhouse log tracks three water tanks: A, B, and C. Initially A=285, B=22, C=303 (liters). Apply these operations in order:\n1. Add 102 to C.\n2. Double C.\n3. Halve C.\n4. Add 40 to A.\n5. Double A.\n6. Halve A.\n7. Double A.",
+  "initial": {
+   "A": 285,
+   "B": 22,
+   "C": 303
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 102
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 40
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 285,
+    "B": 22,
+    "C": 405
+   },
+   {
+    "A": 285,
+    "B": 22,
+    "C": 810
+   },
+   {
+    "A": 285,
+    "B": 22,
+    "C": 405
+   },
+   {
+    "A": 325,
+    "B": 22,
+    "C": 405
+   },
+   {
+    "A": 650,
+    "B": 22,
+    "C": 405
+   },
+   {
+    "A": 325,
+    "B": 22,
+    "C": 405
+   },
+   {
+    "A": 650,
+    "B": 22,
+    "C": 405
+   }
+  ],
+  "final": {
+   "A": 650,
+   "B": 22,
+   "C": 405
+  }
+ },
+ {
+  "id": "S09",
+  "text": "A workshop board tracks three parts bins: A, B, and C. Initially A=76, B=73, C=372 (parts). Apply these operations in order:\n1. Double B.\n2. Double C.\n3. Subtract 343 from C.\n4. Subtract 170 from C.\n5. Add 111 to B.\n6. Double A.\n7. Halve A.",
+  "initial": {
+   "A": 76,
+   "B": 73,
+   "C": 372
+  },
+  "ops": [
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 343
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 170
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 111
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 76,
+    "B": 146,
+    "C": 372
+   },
+   {
+    "A": 76,
+    "B": 146,
+    "C": 744
+   },
+   {
+    "A": 76,
+    "B": 146,
+    "C": 401
+   },
+   {
+    "A": 76,
+    "B": 146,
+    "C": 231
+   },
+   {
+    "A": 76,
+    "B": 257,
+    "C": 231
+   },
+   {
+    "A": 152,
+    "B": 257,
+    "C": 231
+   },
+   {
+    "A": 76,
+    "B": 257,
+    "C": 231
+   }
+  ],
+  "final": {
+   "A": 76,
+   "B": 257,
+   "C": 231
+  }
+ },
+ {
+  "id": "S10",
+  "text": "A harbor office tracks three fuel depots: A, B, and C. Initially A=119, B=274, C=388 (barrels). Apply these operations in order:\n1. Subtract 9 from B.\n2. Double B.\n3. Halve C.\n4. Add 20 to A.\n5. Add 5 to A.\n6. Subtract 35 from A.\n7. Double C.",
+  "initial": {
+   "A": 119,
+   "B": 274,
+   "C": 388
+  },
+  "ops": [
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 9
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 20
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 5
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 35
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 119,
+    "B": 265,
+    "C": 388
+   },
+   {
+    "A": 119,
+    "B": 530,
+    "C": 388
+   },
+   {
+    "A": 119,
+    "B": 530,
+    "C": 194
+   },
+   {
+    "A": 139,
+    "B": 530,
+    "C": 194
+   },
+   {
+    "A": 144,
+    "B": 530,
+    "C": 194
+   },
+   {
+    "A": 109,
+    "B": 530,
+    "C": 194
+   },
+   {
+    "A": 109,
+    "B": 530,
+    "C": 388
+   }
+  ],
+  "final": {
+   "A": 109,
+   "B": 530,
+   "C": 388
+  }
+ },
+ {
+  "id": "S11",
+  "text": "A warehouse register tracks three bins: A, B, and C. Initially A=230, B=266, C=110 (units). Apply these operations in order:\n1. Add 99 to C.\n2. Halve B.\n3. Add 26 to A.\n4. Subtract 115 from C.\n5. Subtract 118 from A.\n6. Add 84 to B.\n7. Double C.",
+  "initial": {
+   "A": 230,
+   "B": 266,
+   "C": 110
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 99
+   },
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 26
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 115
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 118
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 84
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 230,
+    "B": 266,
+    "C": 209
+   },
+   {
+    "A": 230,
+    "B": 133,
+    "C": 209
+   },
+   {
+    "A": 256,
+    "B": 133,
+    "C": 209
+   },
+   {
+    "A": 256,
+    "B": 133,
+    "C": 94
+   },
+   {
+    "A": 138,
+    "B": 133,
+    "C": 94
+   },
+   {
+    "A": 138,
+    "B": 217,
+    "C": 94
+   },
+   {
+    "A": 138,
+    "B": 217,
+    "C": 188
+   }
+  ],
+  "final": {
+   "A": 138,
+   "B": 217,
+   "C": 188
+  }
+ },
+ {
+  "id": "S12",
+  "text": "A vault ledger tracks three accounts: A, B, and C. Initially A=79, B=355, C=97 (credits). Apply these operations in order:\n1. Subtract 46 from C.\n2. Double A.\n3. Add 88 to B.\n4. Subtract 225 from B.\n5. Add 24 to C.\n6. Double C.\n7. Halve B.",
+  "initial": {
+   "A": 79,
+   "B": 355,
+   "C": 97
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 46
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 88
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 225
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 24
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 79,
+    "B": 355,
+    "C": 51
+   },
+   {
+    "A": 158,
+    "B": 355,
+    "C": 51
+   },
+   {
+    "A": 158,
+    "B": 443,
+    "C": 51
+   },
+   {
+    "A": 158,
+    "B": 218,
+    "C": 51
+   },
+   {
+    "A": 158,
+    "B": 218,
+    "C": 75
+   },
+   {
+    "A": 158,
+    "B": 218,
+    "C": 150
+   },
+   {
+    "A": 158,
+    "B": 109,
+    "C": 150
+   }
+  ],
+  "final": {
+   "A": 158,
+   "B": 109,
+   "C": 150
+  }
+ },
+ {
+  "id": "S13",
+  "text": "A greenhouse log tracks three water tanks: A, B, and C. Initially A=193, B=296, C=132 (liters). Apply these operations in order:\n1. Add 42 to C.\n2. Add 91 to A.\n3. Halve A.\n4. Double C.\n5. Add 32 to B.\n6. Subtract 273 from C.\n7. Double C.",
+  "initial": {
+   "A": 193,
+   "B": 296,
+   "C": 132
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 42
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 91
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 32
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 273
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 193,
+    "B": 296,
+    "C": 174
+   },
+   {
+    "A": 284,
+    "B": 296,
+    "C": 174
+   },
+   {
+    "A": 142,
+    "B": 296,
+    "C": 174
+   },
+   {
+    "A": 142,
+    "B": 296,
+    "C": 348
+   },
+   {
+    "A": 142,
+    "B": 328,
+    "C": 348
+   },
+   {
+    "A": 142,
+    "B": 328,
+    "C": 75
+   },
+   {
+    "A": 142,
+    "B": 328,
+    "C": 150
+   }
+  ],
+  "final": {
+   "A": 142,
+   "B": 328,
+   "C": 150
+  }
+ },
+ {
+  "id": "S14",
+  "text": "A workshop board tracks three parts bins: A, B, and C. Initially A=302, B=34, C=79 (parts). Apply these operations in order:\n1. Subtract 22 from C.\n2. Add 108 to B.\n3. Double B.\n4. Halve A.\n5. Subtract 42 from C.\n6. Add 33 to B.\n7. Add 97 to B.",
+  "initial": {
+   "A": 302,
+   "B": 34,
+   "C": 79
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 22
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 108
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 42
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 33
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 97
+   }
+  ],
+  "states": [
+   {
+    "A": 302,
+    "B": 34,
+    "C": 57
+   },
+   {
+    "A": 302,
+    "B": 142,
+    "C": 57
+   },
+   {
+    "A": 302,
+    "B": 284,
+    "C": 57
+   },
+   {
+    "A": 151,
+    "B": 284,
+    "C": 57
+   },
+   {
+    "A": 151,
+    "B": 284,
+    "C": 15
+   },
+   {
+    "A": 151,
+    "B": 317,
+    "C": 15
+   },
+   {
+    "A": 151,
+    "B": 414,
+    "C": 15
+   }
+  ],
+  "final": {
+   "A": 151,
+   "B": 414,
+   "C": 15
+  }
+ },
+ {
+  "id": "S15",
+  "text": "A harbor office tracks three fuel depots: A, B, and C. Initially A=169, B=158, C=59 (barrels). Apply these operations in order:\n1. Subtract 18 from C.\n2. Halve B.\n3. Double C.\n4. Double C.\n5. Halve C.\n6. Subtract 153 from A.\n7. Add 15 to B.",
+  "initial": {
+   "A": 169,
+   "B": 158,
+   "C": 59
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 18
+   },
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 153
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 15
+   }
+  ],
+  "states": [
+   {
+    "A": 169,
+    "B": 158,
+    "C": 41
+   },
+   {
+    "A": 169,
+    "B": 79,
+    "C": 41
+   },
+   {
+    "A": 169,
+    "B": 79,
+    "C": 82
+   },
+   {
+    "A": 169,
+    "B": 79,
+    "C": 164
+   },
+   {
+    "A": 169,
+    "B": 79,
+    "C": 82
+   },
+   {
+    "A": 16,
+    "B": 79,
+    "C": 82
+   },
+   {
+    "A": 16,
+    "B": 94,
+    "C": 82
+   }
+  ],
+  "final": {
+   "A": 16,
+   "B": 94,
+   "C": 82
+  }
+ },
+ {
+  "id": "S16",
+  "text": "A warehouse register tracks three bins: A, B, and C. Initially A=160, B=70, C=103 (units). Apply these operations in order:\n1. Subtract 80 from C.\n2. Double A.\n3. Double A.\n4. Halve B.\n5. Subtract 343 from A.\n6. Subtract 28 from B.\n7. Add 38 to C.",
+  "initial": {
+   "A": 160,
+   "B": 70,
+   "C": 103
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 80
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 343
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 28
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 38
+   }
+  ],
+  "states": [
+   {
+    "A": 160,
+    "B": 70,
+    "C": 23
+   },
+   {
+    "A": 320,
+    "B": 70,
+    "C": 23
+   },
+   {
+    "A": 640,
+    "B": 70,
+    "C": 23
+   },
+   {
+    "A": 640,
+    "B": 35,
+    "C": 23
+   },
+   {
+    "A": 297,
+    "B": 35,
+    "C": 23
+   },
+   {
+    "A": 297,
+    "B": 7,
+    "C": 23
+   },
+   {
+    "A": 297,
+    "B": 7,
+    "C": 61
+   }
+  ],
+  "final": {
+   "A": 297,
+   "B": 7,
+   "C": 61
+  }
+ },
+ {
+  "id": "S17",
+  "text": "A vault ledger tracks three accounts: A, B, and C. Initially A=31, B=351, C=145 (credits). Apply these operations in order:\n1. Double A.\n2. Add 74 to C.\n3. Add 20 to C.\n4. Add 10 to C.\n5. Double B.\n6. Halve B.\n7. Subtract 244 from C.",
+  "initial": {
+   "A": 31,
+   "B": 351,
+   "C": 145
+  },
+  "ops": [
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 74
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 20
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 10
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "-",
+    "delta": 244
+   }
+  ],
+  "states": [
+   {
+    "A": 62,
+    "B": 351,
+    "C": 145
+   },
+   {
+    "A": 62,
+    "B": 351,
+    "C": 219
+   },
+   {
+    "A": 62,
+    "B": 351,
+    "C": 239
+   },
+   {
+    "A": 62,
+    "B": 351,
+    "C": 249
+   },
+   {
+    "A": 62,
+    "B": 702,
+    "C": 249
+   },
+   {
+    "A": 62,
+    "B": 351,
+    "C": 249
+   },
+   {
+    "A": 62,
+    "B": 351,
+    "C": 5
+   }
+  ],
+  "final": {
+   "A": 62,
+   "B": 351,
+   "C": 5
+  }
+ },
+ {
+  "id": "S18",
+  "text": "A greenhouse log tracks three water tanks: A, B, and C. Initially A=214, B=199, C=268 (liters). Apply these operations in order:\n1. Add 21 to A.\n2. Subtract 186 from B.\n3. Subtract 156 from A.\n4. Double B.\n5. Subtract 11 from B.\n6. Subtract 11 from B.\n7. Double A.",
+  "initial": {
+   "A": 214,
+   "B": 199,
+   "C": 268
+  },
+  "ops": [
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 21
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 186
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 156
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 11
+   },
+   {
+    "var": "B",
+    "op": "-",
+    "delta": 11
+   },
+   {
+    "var": "A",
+    "op": "*",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 235,
+    "B": 199,
+    "C": 268
+   },
+   {
+    "A": 235,
+    "B": 13,
+    "C": 268
+   },
+   {
+    "A": 79,
+    "B": 13,
+    "C": 268
+   },
+   {
+    "A": 79,
+    "B": 26,
+    "C": 268
+   },
+   {
+    "A": 79,
+    "B": 15,
+    "C": 268
+   },
+   {
+    "A": 79,
+    "B": 4,
+    "C": 268
+   },
+   {
+    "A": 158,
+    "B": 4,
+    "C": 268
+   }
+  ],
+  "final": {
+   "A": 158,
+   "B": 4,
+   "C": 268
+  }
+ },
+ {
+  "id": "S19",
+  "text": "A workshop board tracks three parts bins: A, B, and C. Initially A=376, B=324, C=330 (parts). Apply these operations in order:\n1. Double B.\n2. Halve C.\n3. Double C.\n4. Subtract 273 from A.\n5. Add 86 to B.\n6. Add 13 to B.\n7. Add 97 to C.",
+  "initial": {
+   "A": 376,
+   "B": 324,
+   "C": 330
+  },
+  "ops": [
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "C",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 273
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 86
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 13
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 97
+   }
+  ],
+  "states": [
+   {
+    "A": 376,
+    "B": 648,
+    "C": 330
+   },
+   {
+    "A": 376,
+    "B": 648,
+    "C": 165
+   },
+   {
+    "A": 376,
+    "B": 648,
+    "C": 330
+   },
+   {
+    "A": 103,
+    "B": 648,
+    "C": 330
+   },
+   {
+    "A": 103,
+    "B": 734,
+    "C": 330
+   },
+   {
+    "A": 103,
+    "B": 747,
+    "C": 330
+   },
+   {
+    "A": 103,
+    "B": 747,
+    "C": 427
+   }
+  ],
+  "final": {
+   "A": 103,
+   "B": 747,
+   "C": 427
+  }
+ },
+ {
+  "id": "S20",
+  "text": "A harbor office tracks three fuel depots: A, B, and C. Initially A=243, B=105, C=34 (barrels). Apply these operations in order:\n1. Halve C.\n2. Subtract 36 from A.\n3. Add 115 to B.\n4. Add 107 to A.\n5. Add 104 to C.\n6. Double B.\n7. Halve A.",
+  "initial": {
+   "A": 243,
+   "B": 105,
+   "C": 34
+  },
+  "ops": [
+   {
+    "var": "C",
+    "op": "/",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "-",
+    "delta": 36
+   },
+   {
+    "var": "B",
+    "op": "+",
+    "delta": 115
+   },
+   {
+    "var": "A",
+    "op": "+",
+    "delta": 107
+   },
+   {
+    "var": "C",
+    "op": "+",
+    "delta": 104
+   },
+   {
+    "var": "B",
+    "op": "*",
+    "delta": 2
+   },
+   {
+    "var": "A",
+    "op": "/",
+    "delta": 2
+   }
+  ],
+  "states": [
+   {
+    "A": 243,
+    "B": 105,
+    "C": 17
+   },
+   {
+    "A": 207,
+    "B": 105,
+    "C": 17
+   },
+   {
+    "A": 207,
+    "B": 220,
+    "C": 17
+   },
+   {
+    "A": 314,
+    "B": 220,
+    "C": 17
+   },
+   {
+    "A": 314,
+    "B": 220,
+    "C": 121
+   },
+   {
+    "A": 314,
+    "B": 440,
+    "C": 121
+   },
+   {
+    "A": 157,
+    "B": 440,
+    "C": 121
+   }
+  ],
+  "final": {
+   "A": 157,
+   "B": 440,
+   "C": 121
+  }
+ }
+]
